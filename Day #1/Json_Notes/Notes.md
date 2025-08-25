@@ -1,4 +1,3 @@
-
 ## Introduction to JSON
 JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and simple for machines to parse and generate. It is widely used across programming languages, especially in APIs and configuration files, due to its simplicity and versatility.
 

@@ -1,0 +1,148 @@
+[
+    {
+        "section": "Basic Example",
+        "example": {
+            "name": "Ali",
+            "age": 25,
+            "skills": ["JavaScript", "PHP"],
+            "isActive": true,
+            "address": null
+        }
+    },
+    {
+        "section": "Array of Users",
+        "example": [
+            {
+                "name": "Ali",
+                "age": 25
+            },
+            {
+                "name": "Sara",
+                "age": 28
+            }
+        ]
+    },
+    {
+        "section": "Nested Objects",
+        "example": {
+            "user": {
+                "id": 1,
+                "profile": {
+                    "email": "ali@example.com",
+                    "contacts": {
+                        "phone": "123-456-7890",
+                        "address": {
+                            "city": "Lahore",
+                            "zip": "54000"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "section": "Array of Skills",
+        "example": {
+            "skills": [
+                {
+                    "name": "JavaScript",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "PHP",
+                    "level": "Intermediate"
+                }
+            ]
+        }
+    },
+    {
+        "section": "Boolean and Null Values",
+        "example": {
+            "isActive": false,
+            "isVerified": true,
+            "deletedAt": null
+        }
+    },
+    {
+        "section": "Complex Structure",
+        "example": {
+            "users": [
+                {
+                    "id": 1,
+                    "name": "Ali",
+                    "roles": ["admin", "editor"],
+                    "profile": {
+                        "email": "ali@example.com",
+                        "phone": "123-456-7890"
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "Sara",
+                    "roles": ["user"],
+                    "profile": {
+                        "email": "sara@example.com",
+                        "phone": "987-654-3210"
+                    }
+                }
+            ],
+            "meta": {
+                "total": 2,
+                "page": 1
+            }
+        }
+    },
+    {
+        "section": "Configuration Example",
+        "example": {
+            "appName": "MyApp",
+            "version": "1.0.0",
+            "debug": true,
+            "apiEndpoints": {
+                "login": "/api/login",
+                "register": "/api/register"
+            }
+        }
+    },
+    {
+        "section": "Product List",
+        "example": {
+            "products": [
+                {
+                    "id": 101,
+                    "name": "Laptop",
+                    "price": 1200.99,
+                    "inStock": true
+                },
+                {
+                    "id": 102,
+                    "name": "Mouse",
+                    "price": 25.5,
+                    "inStock": false
+                }
+            ]
+        }
+    },
+    {
+        "section": "Settings Example",
+        "example": {
+            "theme": "dark",
+            "notifications": {
+                "email": true,
+                "sms": false
+            },
+            "languages": ["en", "ur", "fr"]
+        }
+    },
+    {
+        "section": "API Response Example",
+        "example": {
+            "status": "success",
+            "data": {
+                "userId": 1,
+                "token": "abc123xyz"
+            },
+            "message": "Login successful"
+        }
+    }
+]
