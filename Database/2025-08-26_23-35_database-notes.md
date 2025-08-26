@@ -57,5 +57,3 @@ Non-sequential data refers to data where the order is not important. You can acc
 
 - **Sequential Data (Database):** Used when maintaining the order of data is crucial, such as logs, time series, or financial records.
 - **Non-Sequential Data (Database):** Used when only the data itself matters, not the order, such as user information or product details.
-
-**Tip:** Most databases contain both types of data. Choose your data structures and indexing strategies based on your specific use case.
